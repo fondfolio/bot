@@ -1,0 +1,25 @@
+{
+  "name": "bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "sk lint",
+    "test": "sk test",
+    "type-check": "sk type-check",
+    "dev": "sk dev",
+    "build": "sk build"
+  },
+  "workspaces": {
+    "packages": []
+  },
+  "devDependencies": {
+    "@sewing-kit/cli": "^0.2.0",
+    "@sewing-kit/eslint-plugin": "^0.0.14",
+    "@sewing-kit/plugin-eslint": "^0.1.6",
+    "@sewing-kit/plugin-javascript": "^0.2.0",
+    "@sewing-kit/plugin-jest": "^0.1.21",
+    "@sewing-kit/plugin-typescript": "^0.1.21",
+    "babel-jest": "^26.6.3"
+  },
+  "dependencies": {}
+}
