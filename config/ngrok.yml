@@ -1,0 +1,10 @@
+authtoken: 1a6bZhmWznzn2zkEJorjg1rLpxA_56CwArfdFqEgTeJRtkTh7
+region: us
+console_ui: true
+web_addr: localhost:4040
+
+tunnels:
+  fondfolio:
+    proto: http
+    addr: 8081
+    hostname: fondfolio.ngrok.io

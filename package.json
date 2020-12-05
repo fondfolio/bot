@@ -7,7 +7,9 @@
     "test": "sk test",
     "type-check": "sk type-check",
     "dev": "sk dev",
-    "build": "sk build"
+    "build": "sk build",
+    "ngrok": "ngrok start --config='./config/ngrok.yml' fondfolio",
+    "start": "node ./app/build/ts/index.js"
   },
   "workspaces": {
     "packages": []
